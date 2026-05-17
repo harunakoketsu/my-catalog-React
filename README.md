@@ -71,3 +71,14 @@ export default defineConfig([
   },
 ])
 ```
+
+## .prettierrcの意味
+
+| オプション | 意味 |
+|---|---|
+| `"trailingComma": "es5"` | 配列・オブジェクトの末尾にカンマをつける（ES5で有効な箇所のみ） |
+| `"tabWidth": 2` | インデントをスペース2つ |
+| `"semi": false` | 文末のセミコロンを消す |
+| `"singleQuote": true` | 文字列をシングルクォート `'` にする |
+| `"printWidth": 100` | 1行100文字を超えたら折り返す |
+| `"arrowParens": "always"` | アロー関数の引数を必ずカッコで囲む（`x =>` ではなく `(x) =>`） |
